@@ -36,7 +36,7 @@ const Todo = () => {
           })
           }
         </ul> : ""}
-      {task.length != 0 ? <div className="label"><label>{task.length} item left</label></div> : ""}
+      {task.length != 0 ? <div className="label"><label>{task.length} item left</label></div> : <div className="no-task">No pending task</div>}
     </div>
   );
 };

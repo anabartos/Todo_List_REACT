@@ -49,19 +49,21 @@ li{
 ul li {
     cursor: pointer;
     position: relative;
-    /*padding: 20px 8px 12px 20px;*/
     background: whitesmoke;
     opacity: 0.9;
     font-size: 18px;
     transition: 0.2s;
 }
-.label{
+.label, .no-task{
+    text-align: center;
     padding: 12px 20px;
-    border: px solid rgb(190, 189, 189);
+    border: 1px solid rgb(190, 189, 189);
     background-color:whitesmoke;
     opacity: 0.9;
-    font-size: 12px;
+    font-size: 16px;
     transition: 0.2s;
+   
 }
+
 
 
