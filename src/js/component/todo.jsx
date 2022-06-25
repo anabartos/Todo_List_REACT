@@ -31,7 +31,7 @@ const Todo = () => {
       {task ?
         <ul>
           {task.map((value, index) => {
-            return <li key={index}>{value}<button onClick={() => { deleteTask(value) }}><i className="fa-light fa-trash-can"></i></button>
+            return <li key={index}>{value}<button className="button border-0 text-muted bg-transparent" onClick={() => { deleteTask(value) }}><i className="fa-solid fa-trash-can"></i></button>
             </li>
           })
           }
